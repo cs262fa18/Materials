@@ -1,0 +1,9 @@
+Ideas:
+
+Restaurant check-in app
+ - Like great clips, queue based
+Giraffe app? Nahh
+Used textbooks market
+ - Replace free & for sale
+ - Use bookstore API?
+ - Good searching
