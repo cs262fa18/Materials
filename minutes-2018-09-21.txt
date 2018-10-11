@@ -1,0 +1,6 @@
+Everyone showed up.  Gold Lab: 10:00am - 10:25am
+
+We discussed possible options for the project, and came to a descision.
+The app would be a service for gamers to find other players of their favorite game.
+This app will store gamers' usernames for individual games locally, so when a user joins an event, the app will autofill
+	the players username for ease of use.
