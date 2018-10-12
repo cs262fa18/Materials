@@ -1,0 +1,44 @@
+Supplemental Specifications:
+
+The non-functional requirements for our projects are as follows:
+
+Accuracy:
+  1. All of the widgets should display accurately and record data accurately.
+  2. The metadata we present to the user must be accurate.
+
+Adaptability:
+  1. The app should support the ability to add multiple "clients" or "tasks".
+
+Aesthetics:
+  1. The user interface should be simple and intuitive.
+  2. The stockholders must be pleased with the app appearance.
+
+Compatibility:
+  1. The application must be compatible with most android phones and the latest software.
+
+Consistency:
+  1. A consistent GUI is required.
+
+Documentation:
+  1. All system documentation must be embedded in the source code.
+
+Performance:
+  1. optimize functions/methods
+  2. implement database design that leads to fast queries
+
+Predictability:
+  1. The application must never crash.
+  2. The application must produce predictable results.
+
+Reliability:
+  1. limit times users can enter after the fact (e.g. can't enter 10pm as a start time and have a finish time of 8pm the same day)
+  2. round recorded times to nearest minute to allow for easier calculations and more useful data (10 min 29 sec can just as easily be read as 10 min)
+
+Supportability:
+  1. ensure database is easy to update and modify when necessary
+  2. use views where needed and create useful indexes
+
+Usability:
+  1. The UI must be user-friendly. 
+  2. Large, easy to click buttons
+  3. Go to a screen after timing is finished for users to have a chance to edit data before saving it
