@@ -1,0 +1,20 @@
+Non-functional requirements:
+
+- Usability: 
+  - Buttons need to be large and easy to click/press.
+  - After users finish timing, the app should go to a screen that allows the data to be edited before saving it in the database.
+  - The app should be usable by a general user in under 5 minutes.
+
+- Reliability:
+  - The times users can enter after the fact should be limited (e.g. can't enter 10pm as a start time and have a finish time of 8pm the same day).
+  - Recorded times should be rounded to the nearest minute to allow for easier calculations and more useful data (10 min 29 sec can just as easily be read as 10 min).
+
+- Performance:
+  - Our application should optimize functions/methods and take advantage of Java-specific functionality to improve performance.
+  - A database design that leads to fast queries should be implemented.
+
+- Supportability:
+  - The database needs to be easy to update and modify when necessary.
+    - This includes creating views and indexes where needed to implement security and give developers a higher level of abstraction.
+  - The app should be written in Java/Android so as to be easily updated in the future.
+  - All system documentation must be embedded in the source code for future work.
