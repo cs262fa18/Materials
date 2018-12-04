@@ -24,7 +24,8 @@ CREATE TABLE Project (
 );
 
 CREATE TABLE Time (
-	UUID varchar(255) primary key,
+	ID int primary key,
+	UUID varchar(255),
 	startTime varchar(255),
 	endTime varchar(255),
 	employeeID int references Employee(ID),
@@ -49,12 +50,12 @@ INSERT INTO Project VALUES (2, 'Beta', 3);
 INSERT INTO Project VALUES (3, 'Gamma', 5);
 INSERT INTO Project VALUES (4, 'Zeta', 5);
 
-INSERT INTO Time VALUES ('test uuid', '2018-10-25 10:23:54', 
+INSERT INTO Time VALUES (1, 'test uuid', '2018-10-25 10:23:54', 
 			     '2018-10-25 12:23:54', 2, 1);
-INSERT INTO Time VALUES ('another uuid', '2018-10-25 10:23:54', 
+INSERT INTO Time VALUES (2, 'another uuid', '2018-10-25 10:23:54', 
 			     '2018-10-25 12:23:54', 1, 1);
-INSERT INTO Time VALUES ('idk what to put', '2018-10-25 10:23:54', 
+INSERT INTO Time VALUES (3, 'idk what to put', '2018-10-25 10:23:54', 
 			     '2018-10-25 12:23:54', 4, 1);
-INSERT INTO Time VALUES ('out of ideas', '2018-10-25 13:23:54', 
+INSERT INTO Time VALUES (4, 'out of ideas', '2018-10-25 13:23:54', 
 			     '2018-10-25 15:23:54', 2, 1);
 
