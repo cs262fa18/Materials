@@ -12,7 +12,6 @@ DROP TABLE IF EXISTS Employees;
 -- Create the schema.
 CREATE TABLE Employee (
 	ID int primary key,
-	name varchar(128),
 	username varchar(255),
 	password varchar(255)
 );
@@ -39,11 +38,11 @@ GRANT SELECT ON Project TO PUBLIC;
 GRANT SELECT ON Time TO PUBLIC;
 
 -- Add sample records.
-INSERT INTO Employee VALUES (1, 'Joe', 'j1', 'password');
-INSERT INTO Employee VALUES (2, 'John', 'j2', 'password');
-INSERT INTO Employee VALUES (3, 'Jay', 'j3', 'password');
-INSERT INTO Employee VALUES (4, 'Jordan', 'j4', 'password');
-INSERT INTO Employee VALUES (5, 'Joe', 'j5', 'password');
+INSERT INTO Employee VALUES (1, 'j1', 'password');
+INSERT INTO Employee VALUES (2, 'j2', 'password');
+INSERT INTO Employee VALUES (3, 'j3', 'password');
+INSERT INTO Employee VALUES (4, 'j4', 'password');
+INSERT INTO Employee VALUES (5, 'j5', 'password');
 
 INSERT INTO Project VALUES (1, 'Alpha', 3);
 INSERT INTO Project VALUES (2, 'Beta', 3);
