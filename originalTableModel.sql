@@ -27,8 +27,8 @@ CREATE TABLE Time (
 	UUID varchar(255),
 	startTime varchar(255),
 	endTime varchar(255),
-	projectID int,
-	employeeID int references Employee(ID)
+	employeeID int references Employee(ID),
+	projectID int
 );
 
 ALTER TABLE Time
