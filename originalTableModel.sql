@@ -27,10 +27,13 @@ CREATE TABLE Time (
 	UUID varchar(255),
 	startTime varchar(255),
 	endTime varchar(255),
-	employeeID int references Employee(ID),
-	projectID int references Project(ID)
+	projectID int,
+	employeeID int references Employee(ID)
 );
-	
+
+ALTER TABLE Time
+ADD CONSTRAINT fk_time_proj FOREIGN KEY (projectID)
+REFERENCES Project(ID) ON DELETE CASCADE;
 
 -- Allow users to select data from the tables.
 GRANT SELECT ON Employee TO PUBLIC;
